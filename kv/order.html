@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order - Pizza Parlor</title>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+  <div id="container">
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name"><h1><a href="#">Pizza Parlor</a></h1></li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+          <li><a href="index.html" title="Home" class="active">Home</a></li>
+          <li class="has-dropdown"><a href="menu.html" title="Menu">Menu</a>
+            <ul class="dropdown">
+              <li><a href="order.html" title="Order">Order</a></li>
+            </ul>
+          </li>
+          <li><a href="locations.html" title="Locations">Locations</a></li>
+          <li><a href="gallery.html" title="Gallery">Gallery</a></li>
+          <li><a href="contact.html" title="Contact">Contact</a></li>
+        </ul>
+      </section>
+    </nav>
+    <form>
+      <fieldset style="width: 500px;">
+        <table>
+          <tr>
+            <td>
+              <label>How would you like your order?</label><br />
+              <select>
+                <option value="Eat in">Eat in</option>
+                <option value="Pickup">Pickup</option>
+                <option value="Home Delivery">Home Delivery</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>First Name:</label><br />
+              <input type="text" />
+            </td>
+            <td>
+              <label>Last Name:</label><br />
+              <input type="text" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Phone:</label><br />
+              <input type="tel" />
+            </td>
+            <td>
+              <label>Address:</label><br />
+              <input type="email" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Item to purchase:</label><br />
+              <select>
+                <option value="Cheese Pizza">Cheese Pizza $15.00</option>
+                <option value="Breadsticks">Breadsticks $11.00</option>
+                <option value="Double Pizza">Double Pizza $14.00</option>
+                <option value="Foursome Pizza">Foursome Pizza $15.00</option>
+                <option value="Veggie-lover's Pizza">Double Veggie Pizza $15.00</option>
+                <option value="Weekly Special">Weekly Special $20.00</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Total:</label>&nbsp;<label></label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="submit" value="Place Order" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </div>
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>

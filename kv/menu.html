@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu - Pizza Parlor</title>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+  <div id="container">
+    <nav class="top-bar" data-topbar>
+      <ul class="title-area">
+        <li class="name"><h1><a href="#">Pizza Parlor</a></h1></li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+          <li><a href="index.html" title="Home" class="active">Home</a></li>
+          <li class="has-dropdown"><a href="menu.html" title="Menu">Menu</a>
+            <ul class="dropdown">
+              <li><a href="order.html" title="Order">Order</a></li>
+            </ul>
+          </li>
+          <li><a href="locations.html" title="Locations">Locations</a></li>
+          <li><a href="gallery.html" title="Gallery">Gallery</a></li>
+          <li><a href="contact.html" title="Contact">Contact</a></li>
+        </ul>
+      </section>
+    </nav>
+    <h3>Premium Pizzas</h3>
+    <table>
+      <tr>
+        <th>Pizza</th>
+        <th>Description</th>
+        <th>Image</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Bacon, pineapple and olives</td>
+        <td>Pizza decorated with specially sliced bacon, pineapple, and olives.</td>
+        <td><img src="images/bacon_pineapple_olives_thumb.jpg" alt="bacon_pineapple_olives_thumb.jpg" /></td>
+        <td>$17.00</td>
+      </tr>
+      <tr>
+        <td>Canadian Bacon and Cheese</td>
+        <td>A super-stuffed pizza of Canadian bacon and sticky cheese.</td>
+        <td><img src="images/double_pizza_thumb.jpg" alt="double_pizza_thumb.jpg" /></td>
+        <td>$19.00</td>
+      </tr>
+      <tr>
+        <td>Tomato Pizza</td>
+        <td>Pizza with tomatoes and... green flat stuff.</td>
+        <td><img src="images/pizza-1_thumb.jpg" alt="pizza-1_thumb.jpg" /></td>
+        <td>$17.00</td>
+      </tr>
+      <tr>
+        <td>Double Veggie Pizza</td>
+        <td>A double-stuffed pizza with a wider variety of veggies than usual.</td>
+        <td><img src="images/veggie_pizza_thumb.jpg" alt="veggie_pizza_thumb.jpg" /></td>
+        <td>$20.00</td>
+      </tr>
+    </table>
+    <h3>Salads</h3>
+    <table>
+      <tr>
+        <th>Salad</th>
+        <th>Image</th>
+        <th>Description</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Multi-fruit Salad</td>
+        <td><img src="images/438295_orig_thumb.jpg" alt="438295_orig_thumb.jpg" /></td>
+        <td>N/A</td>
+        <td>$10.00</td>
+      </tr>
+      <tr>
+        <td>Several Peppers Salad</td>
+        <td><img src="images/Satellite_thumb.png" alt="Satellite_thumb.png" /></td>
+        <td>N/A</td>
+        <td>$10.00</td>
+      </tr>
+    </table>
+    <h3>Drinks</h3>
+    <table>
+      <tr>
+        <th>Drink</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Berry-lime Smoothie</td>
+        <td>$10.00</td>
+      </tr>
+      <tr>
+        <td>Medium Soda</td>
+        <td>$14.00</td>
+      </tr>
+      <tr>
+        <td>Large Soda</td>
+        <td>$18.00</td>
+      </tr>
+    </table>
+    <form>
+      <fieldset>
+        <input type="submit" value="Order Now" />
+      </fieldset>
+    </form>
+    <a href="order.html" title="Order">Order</a>
+  </div>
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
